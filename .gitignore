@@ -27,3 +27,5 @@
 *.lock
 *.md
 *.java
+*.angular/cache/
+*.angular
