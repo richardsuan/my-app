@@ -22,7 +22,7 @@ export class AppComponent {
       console.log(this.token);
       this.getPrivateZone();
     }, (error) => {
-      alert("no autorizado");
+      alert("no autorizado o credenciales incorrectas");
       console.log(error);
     });
   }
